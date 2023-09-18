@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #c4c8ff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #c4c8ff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: #000000;
+}
+
+h1 {
+    background-color: #c4c8ff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #c4c8ff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #c4c8ff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
