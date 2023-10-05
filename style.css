@@ -72,8 +72,9 @@ section {
 section img {
     display: flex;
     align-self: center;
-    width: 40em;
+    width: 35em;
     margin-bottom: 1.5em;
+    border-radius: 1em;
 }
 
 img {
