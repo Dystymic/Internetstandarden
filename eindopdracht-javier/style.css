@@ -1,44 +1,102 @@
+/* CSS Reset */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI';
 }
 
-header {
-    background-color: #c4c8ff;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
+/* Navigation Styling */
 nav {
-    background-color: #c4c8ff;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    background: darkblue;
+    width: 100%;
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+/* Text Styling */
 p {
     color: #000000;
+    font-size: 1em; 
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
 }
 
 h1 {
-    background-color: #c4c8ff;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    font-size: 2em; 
+    margin-bottom: 0.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
 }
 
+h2 {
+    margin-bottom: 0.4em;
+    margin-bottom: 0.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 1em;
+    text-align: center; 
+}
+
+pre {
+    text-align: center;
+}
+
+/* Body Styling */
 main {
-    background-color: #c4c8ff;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding-bottom: 1em;
+    font-size: 1em;
+    background-color: lavender;
 }
 
 footer {
-    background-color: #c4c8ff;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding: 1em;
+    font-size: 0.8em;
+    margin-top: 10em;
+    background-color: lavender;
 }
+
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section img {
+    display: flex;
+    align-self: center;
+    width: 40em;
+    margin: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+/* Button Styling */
+a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.8em;
+    transition: all 350ms ease;
+  }
+
+a:hover {
+    background: lightcyan;
+    color: darkblue;
+    padding: 1.5em;
+  }
+
+
+
+
+
